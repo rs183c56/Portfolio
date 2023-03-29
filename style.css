@@ -73,7 +73,7 @@
     top: 60%;
     align-items: center;
     color:#ffffff;
-    left: 30px;
+    right: 30px;
   }
 .home-content h1 {
     font-size: 50px;
@@ -82,9 +82,31 @@
     font-size: 15px;
     line-height: 20px;
 }
+.card-col {
+    position: absolute;
+    top: 30%;
+    align-items: center;
+    color:#ffffff;
+    left: 30px;
+}
+.card {
+    width: 200px;
+    height: 230px;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(rica.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
 
+}
 
-
+.card:hover {
+    transform: translateY(-10px);
+}
 
 
 
@@ -204,3 +226,7 @@ CONTACT SECTION
     line-height: 27px;
     /* margin-bottom: auto; */
   }
+.contact-col h1{
+    margin-bottom: 70px;
+    
+}
