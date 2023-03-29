@@ -173,3 +173,34 @@ SKILLS SECTION
     max-width: 100px;
     height: auto;
   }
+
+/* 
+ABOUT SECTION
+*/
+.about-content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color:#ffffff;
+    line-height: 27px;
+    /* margin-bottom: auto; */
+  }
+.about-content h1 {
+    margin-bottom: 80px;
+}
+
+/* 
+CONTACT SECTION
+*/
+.contact-content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color:#ffffff;
+    line-height: 27px;
+    /* margin-bottom: auto; */
+  }
